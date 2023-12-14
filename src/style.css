@@ -1,50 +1,65 @@
- @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Dosis:wght@500;600;700;800&family=Inter:wght@200;300;400;500;600;700;800;900&family=League+Spartan:wght@500;600&family=Poppins:ital,wght@0,200;0,900;1,800;1,900&family=Roboto+Condensed:wght@300;400;500;900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Dosis:wght@500;600;700;800&family=Inter:wght@200;300;400;500;600;700;800;900&family=League+Spartan:wght@500;600&family=Poppins:ital,wght@0,200;0,900;1,800;1,900&family=Roboto+Condensed:wght@300;400;500;900&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Dosis:wght@500;600;700;800&family=Inter:wght@200;300;400;500;600;700;800;900&family=League+Spartan:wght@500;600&family=Poppins:ital,wght@0,200;0,900;1,800;1,900&family=Roboto+Condensed:wght@300;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Dosis:wght@500;600;700;800&family=Inter:wght@200;300;400;500;600;700;800;900&family=League+Spartan:wght@500;600&family=Poppins:ital,wght@0,200;0,900;1,800;1,900&family=Roboto+Condensed:wght@300;400;500;900&family=Roboto:wght@300;400&display=swap");
 
-  /* global css  */
-  .normal-text{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #829F82;
-  }
-
-  /* page css  */
-.navbar {
-    border-bottom: 1px solid #e1e1e1;
-    box-shadow: 2px 2px 10px #e1e1e1;
+/* global css  */
+.normal-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #829f82;
 }
-.navbar a{
-    font-size: 13px;
-    font-weight: bolder;
-    letter-spacing: 1px;
+.heading {
+  color: #585b58;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.readmore {
+  display: inline-block;
+  font-weight: bolder;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 0 5px 0 5px;
+}
+.hover-effact:hover {
+  color: blueviolet;
+  transition: 1s ease;
+}
+
+/* page css  */
+.navbar {
+  border-bottom: 1px solid #e1e1e1;
+  box-shadow: 2px 2px 10px #e1e1e1;
+}
+.navbar a {
+  font-size: 13px;
+  font-weight: bolder;
+  letter-spacing: 1px;
 }
 
 .navbar .search {
-    border: none;
+  border: none;
 }
-.carousel-caption h3{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 40px;
-}
-.carousel-caption p{
-    font-weight: bolder;
+.carousel-caption h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
 }
 
-.carousel-caption .hover-effact:hover{
-    color: blueviolet;
-    transition: 1s ease;
-}
 .navbar .search:hover {
-    border: 1px solid #DBC2E7;
+  border: 1px solid #dbc2e7;
 }
 
 .search-box {
-    display: none;
+  display: none;
 }
 
-@media (max-width : 992px) {
-    .search-box {
-        display: block;
-    }
+@media (max-width: 992px) {
+  .search-box {
+    display: block;
+  }
+
+  /* element post format */
+  .second-column {
+    display: none;
+  }
 }
