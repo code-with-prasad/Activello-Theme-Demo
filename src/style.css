@@ -25,7 +25,9 @@
   color: blueviolet;
   transition: 1s ease;
 }
-
+.bar{
+  border-bottom: 1px solid #585b58;
+}
 /* page css  */
 .navbar {
   border-bottom: 1px solid #e1e1e1;
@@ -59,7 +61,7 @@
   }
 
   /* element post format */
-  .second-column {
+  /* .second-column {
     display: none;
-  }
+  } */
 }
